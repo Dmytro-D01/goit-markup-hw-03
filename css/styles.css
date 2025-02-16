@@ -274,7 +274,7 @@ button {
 
 .team-item { 
         border-radius: 0px 0px 4px 4px;
-        flex-basis:  calc((100% - 3 * 24px) / 4);
+        width:  calc((100% - 3 * 24px) / 4);
         background-color: #FFFFFF;
 }
 
@@ -297,6 +297,10 @@ button {
         padding: 120px 0;
 }
 
+.container-portfolio {
+        border: 1px solid #e7e9fc;
+}
+
 .portfolio-section { 
         text-transform: capitalize;
         font-weight: 700;
@@ -305,7 +309,7 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
                 
 }
 
@@ -313,9 +317,10 @@ button {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 48px;
         padding: 0;
-        }
+}
 
 .portfolio-item {
         background-color: #FFFFFF;
@@ -323,10 +328,7 @@ button {
         text-align: center;
         overflow: hidden;
         min-height: 120px;
-        border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-
+        border: 1px solid #e7e9fc;
 }
 
 .portfolio-item:nth-child(n+4) {
@@ -335,6 +337,8 @@ button {
 
 .portfolio-content {
          padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
 
 .portfolio-title {
