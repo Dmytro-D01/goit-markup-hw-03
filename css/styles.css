@@ -279,7 +279,7 @@ button {
         background-color: #FFFFFF;
 }
 
-.team-:first-child {
+.team-item:first-child {
 width: calc((100% - 72px) / 4);
 }
 
@@ -336,7 +336,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .portfolio-list .portfolio-item:first-child {
-width: calc((100% - 48px) / 2);
+width: calc((100% - 48px) / 3);
 }
 
 
