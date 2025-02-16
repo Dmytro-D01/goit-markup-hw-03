@@ -278,6 +278,10 @@ button {
         background-color: #FFFFFF;
 }
 
+.team-item:first-child {
+        flex-basis: calc((100% - 72px) / 4);
+}
+
 .team-info {
         padding: 32px 0;
 }
@@ -295,6 +299,11 @@ button {
 .portfolio { 
         background-color: #FFFFFF;
         padding: 120px 0;
+}
+
+.container-portfolio {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
 }
 
 .portfolio-section { 
@@ -324,10 +333,7 @@ button {
         text-align: center;
         overflow: hidden;
         min-height: 120px;
-        border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-
+        border: 1px solid #e7e9fc;
 }
 
 .portfolio-item:nth-child(-n+3) {
