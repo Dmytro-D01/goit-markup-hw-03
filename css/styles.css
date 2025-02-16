@@ -23,6 +23,7 @@ ul, ol {
 
 .container {
         max-width: 1158px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -37,14 +38,7 @@ button {
 
 /* header */
 .header { 
-        background-color: #fff; 
-        font-family: "Roboto", sans-serif;
-        padding: 24px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         border-bottom: 1px solid #e7e9fc;
-
 }
 
 .container-nav {
@@ -59,7 +53,6 @@ button {
 .header-nav {
        display: flex;
         align-items: center;
-        gap: 40px;
 }
 
 .header-logo {      
@@ -156,10 +149,8 @@ button {
 }
 
 .container-hero {
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 48px;
+
 }
 
 .hero-title {
@@ -170,7 +161,9 @@ button {
         text-align: center;
         color: #fff;
         max-width: 496px;
-        
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .hero-button {
@@ -228,11 +221,8 @@ button {
 }
 
 .features-item {
-        display: flex;
-        gap: 24px;
         flex-direction: column;
         align-items: flex-start;
-        text-align: left;
         flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -267,6 +257,11 @@ button {
 .team-title {
         margin-bottom: 72px;
         text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .team-list {
@@ -292,6 +287,11 @@ width: calc((100% - 3 * 24px) / 4);
 .team-name {
         text-align: center;
         margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+         line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .team-role {
@@ -332,9 +332,6 @@ width: calc((100% - 3 * 24px) / 4);
         background-color: #FFFFFF;
         width: calc((100% - 48px) / 3);
         text-align: center;
-        overflow: hidden;
-        min-height: 120px;
-        border: 1px solid #e7e9fc;
 }
 
 .portfolio-list .portfolio-item:first-child {
@@ -360,7 +357,6 @@ width: calc((100% - 48px) / 3);
                 letter-spacing: 0.02em;
                 color: #2e2f42;
                 text-transform: capitalize;
-                padding-bottom: 8px;
                 text-align: start;
                 margin-bottom: 8px;
 }
@@ -372,7 +368,6 @@ width: calc((100% - 48px) / 3);
                 letter-spacing: 0.02em;
                 color: #434455;
                 text-align: start;
-                padding-left: 16px;
 }
 
 /* footer */
